@@ -1,0 +1,89 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+label {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+select {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    margin-left: 20px;
+    
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.schema-container {
+    margin-top: 20px;
+}
+
+.schema-container div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button.remove-button {
+    background-color: #dc3545;
+}
+
+button.remove-button:hover {
+    background-color: #c82333;
+    color: white;
+}
